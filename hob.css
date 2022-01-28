@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(5 14 26); 
+    background-size: cover;
+    background-position:center ;
+
+}
+.navbar{
+    margin: auto;
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(0 0 0 / 89%);
+    
+    
+
+}
+.logo{
+    display: inline-block;
+    margin: 0 20px;
+    margin-left: 77px;
+    position: relative;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    margin-right: 77px;
+
+}  
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff ;
+    font-size: 19px;
+
+    
+}    
+.navbar ul li::after{
+    content: '';
+    height:3px;
+    width: 0%;
+    background: #450554;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    height: 3px;
+    background-color: #450554;
+    margin: 0 auto;
+    width: 100%;
+}
+.hobby::before{
+    content:' ';
+    height: 3px;
+    position: absolute;
+    background-color:#450554;
+    margin: 29px auto;
+    width: 100%;
+
+}
+
+
+
+.top{
+    text-align: center;
+    color: white;
+    font-family:sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-top:25px;
+
+}
+#services{
+    text-align: center;
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 18px;
+    margin: 70px 50px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    width: 500px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+}
